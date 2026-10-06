@@ -33,5 +33,8 @@ A collection of ALL symbols, definitions and theorems we ever needed and will ne
 
 ## The definitions
 ### Limits
-$\lim_{x\to x_0}{f(x)}=L$  
+A limit is the value that a function (or sequence) approaches as the argument approaches some value. It may not be equal to the value of that function at the value of the argument.  
+For example, if at the value specified the function suddently jumps to a value of $a$ but approaching it indicates a value of $b$, the value of the limit is $b$.  
+Also, if the function is not continuous at a given value, the limit in that spot does not exist, as approaching from two different sides yields two different results.
+
 ![alt text](resources/image.png)
