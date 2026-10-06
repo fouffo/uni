@@ -37,4 +37,10 @@ A limit is the value that a function (or sequence) approaches as the argument ap
 For example, if at the value specified the function suddently jumps to a value of $a$ but approaching it indicates a value of $b$, the value of the limit is $b$.  
 Also, if the function is not continuous at a given value, the limit in that spot does not exist, as approaching from two different sides yields two different results.
 
+There are four different mathematical definitions that we use to describe limits that have infinity as both the value x is approaching and the result:  
+$\lim_{x\to+\infty}f(x)=+\infty\iff\forall M\in\mathbb{R}\exists x_0\mid\forall x\gt x_0\ f(x)\gt M $  
+$\lim_{x\to+\infty}f(x)=-\infty\iff\forall M\in\mathbb{R}\exists x_0\mid\forall x\gt x_0\ f(x)\lt M $  
+$\lim_{x\to-\infty}f(x)=+\infty\iff\forall M\in\mathbb{R}\exists x_0\mid\forall x\lt x_0\ f(x)\gt M $  
+$\lim_{x\to-\infty}f(x)=-\infty\iff\forall M\in\mathbb{R}\exists x_0\mid\forall x\lt x_0\ f(x)\lt M $
+
 ![alt text](resources/image.png)
