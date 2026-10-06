@@ -7,8 +7,8 @@ A collection of ALL symbols, definitions and theorems we ever needed and will ne
 ### Sets
 |Symbol|Description|Symbol|Description|
 |:-:|:-|:-:|:-|
-|$\N$|Set of natural numbers|$\Z$|Set of integer numbers|
-|$\mathbb{Q}$|Set of fractional numbers|$\R$|Set of real numbers|
+|$\mathbb{N}$|Set of natural numbers|$\mathbb{Z}$|Set of integer numbers|
+|$\mathbb{Q}$|Set of fractional numbers|$\mathbb{R}$|Set of real numbers|
 |$\mathbb{C}$|Set of complex numbers|$\varnothing$|Empty set|
 
 ### Operations between sets
@@ -34,4 +34,4 @@ A collection of ALL symbols, definitions and theorems we ever needed and will ne
 ## The definitions
 ### Limits
 $\lim_{x\to x_0}{f(x)}=L$  
-![alt text](image.png)
+![alt text](resources/image.png)
