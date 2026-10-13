@@ -2,7 +2,6 @@
 #include <cstdlib>
 
 void shuffle(int& a, int& b, int& c){
-    srand(time(NULL));
     
 }
 
