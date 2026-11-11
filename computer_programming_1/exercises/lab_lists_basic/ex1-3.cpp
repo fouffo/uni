@@ -39,19 +39,24 @@ void del(Node *list)
     delete list;
 }
 
-void reverse(Node *&list, Node *previous = NULL)
+Node* reverse(Node *&list, Node *previous = NULL)
 {
-    if(list->next == NULL) {
+    if (list->next == NULL)
+    {
         list->next = previous;
-        return;
+        return list;
     }
     reverse(list->next, list);
     if (previous != NULL)
     {
         list->next = previous;
-    } else {
+    }
+    else
+    {
         list->next = NULL;
     }
+    list = list->next;
+    return list;
 }
 
 int main()
